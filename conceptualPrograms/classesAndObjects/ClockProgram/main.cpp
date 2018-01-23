@@ -115,7 +115,10 @@ int main(void)
 
 	cout<<"\n\nSum of two times = "  <<endl;
 	ClockType sum = urclk.fnaddTime(myclk) ; 
-	sum.fnPrintTime()  ; 
+	cout<<"Time 1 : "  ; myclk.fnPrintTime() ; 
+	cout<<"Time 2 : "  ; urclk.fnPrintTime() ; 
+	cout<<"Time 3 : "  ; sum.fnPrintTime() ; 
+
 	
 	myclk.fnGetTime( h , m , s) ; 
 	cout<<"\n\nh = "<<h <<" m = "<<m <<" s = "<<s <<endl; 
