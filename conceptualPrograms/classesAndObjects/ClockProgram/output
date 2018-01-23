@@ -1,0 +1,14 @@
+my clock : Time = 23 : 59 : 59
+Enter Hour Min Sec : 
+your clock : Time = 00 : 01 : 01
+Clocks aren't equal !
+
+
+Sum of two times = 
+Time = 00 : 01 : 00
+
+
+h = 23 m = 59 s = 59
+After equating : 
+myclk : Time = 00 : 01 : 01
+urclk : Time = 00 : 01 : 01

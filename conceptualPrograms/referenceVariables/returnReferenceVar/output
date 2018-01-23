@@ -1,0 +1,3 @@
+ a= 10 b = 30
+
+After returning and assinging 0 : a = 10 b = 0
