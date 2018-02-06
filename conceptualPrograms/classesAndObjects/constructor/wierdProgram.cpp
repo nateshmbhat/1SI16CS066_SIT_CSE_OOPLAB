@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 
-
 using namespace std ; 
 
 class myClass{
@@ -10,6 +9,15 @@ class myClass{
 	public:
 	static int count;
 	int a , b ;
+
+	myClass(myClass& obj)
+	{
+		cout<<"copy "<<endl; 
+		a = obj.a ; 
+		b = obj.b ; 
+		count++ ; 
+	}
+
 	myClass(void)
 	{
 		cout<<" constructor called : " <<endl; 
@@ -35,5 +43,7 @@ int main(void)
 	
 	obj1.fnDo(obj) ; 
 
+	cout<<"\n" ; 
 	cout << myClass::count << endl;
+
 }
