@@ -13,22 +13,21 @@ class Myclass
 	~Myclass() ; 
 } ; 
 
+int Myclass::count ; 
+
 Myclass::Myclass()
 {
-	cout<<"\nCount ++ " ; 
+	cout<<"\nCount ++  : " << count ; 
 	count ++ ; 	
 }
 
 Myclass::~Myclass()
 {
-	cout<<"\nCount --  "  <<endl; 
+	cout<<"\nCount --  : "<<count  <<endl; 
 	count-- ; 
 }
 
 int main()
 {
-
 	Myclass obj  , obj1 ; 
-	
-
 }

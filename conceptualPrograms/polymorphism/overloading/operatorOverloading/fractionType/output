@@ -1,0 +1,24 @@
+Script started on Tuesday 20 February 2018 04:41:46 AM IST
+]0;oopb2@dell-3669: ~/Documents/Natesh M Bhat/OOPS/conceptualPrograms/polymorphism/overloading/operatorOverloading/fractionTypeoopb2@dell-3669:~/Documents/Natesh M Bhat/OOPS/conceptualPrograms/polymorphism/overloading/operatorOverloading/fractionType$ ./a.out 
+
+Enter the numerator and denominator : 10 2
+
+
+Enter the numerator and denominator : 18 9
+
+
+10 / 2
+18 / 9
+Sum : 
+126 / 18
+Diff : 
+126 / 18
+Mul : 
+180 / 18
+Div : 
+90 / 36
+
+]0;oopb2@dell-3669: ~/Documents/Natesh M Bhat/OOPS/conceptualPrograms/polymorphism/overloading/operatorOverloading/fractionTypeoopb2@dell-3669:~/Documents/Natesh M Bhat/OOPS/conceptualPrograms/polymorphism/overloading/operatorOverloading/fractionType$ exit
+exit
+
+Script done on Tuesday 20 February 2018 04:41:55 AM IST
