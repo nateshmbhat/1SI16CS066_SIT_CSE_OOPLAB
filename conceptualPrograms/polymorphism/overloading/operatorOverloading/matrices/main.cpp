@@ -19,6 +19,26 @@ class Matrix
 		}
 	}
 
+	Matrix(const Matrix& obj)
+	{
+		r = obj.r  , c = obj.c ; 
+		matrix = new int *[r] ; 
+		for(int i =0 ; i< r ; i++)
+		{
+			matrix[i]  = new int[c] ; 
+		}
+
+	for(int i=0 ; i<obj.r ; i++)
+	{
+		for(int j = 0 ; j <obj.c ; j++)
+		{
+			matrix[i][j] = obj.matrix[i][j] ; 
+			
+		}
+	}	
+		
+	}
+
 	~Matrix()
 	{
 		delete [] matrix ;	
@@ -49,16 +69,18 @@ Matrix Matrix::operator+(const Matrix& M)  const
 
 Matrix Matrix::operator=(const Matrix& M) 
 {
-	Matrix res(M.r , M.c) ; 	
+	// Matrix res(M.r , M.c) ; 	
+	r = M.r ;
+	c = M.c ; 
 	for(int i=0 ; i<M.r ; i++)
 	{
 		for(int j = 0 ; j <M.c ; j++)
 		{
-			res.matrix[i][j] = M.matrix[i][j] ; 
+			matrix[i][j] = M.matrix[i][j] ; 
 		}
 	}
 
-	return res ; 
+	return  *this; 
 }
 
 
