@@ -1,0 +1,15 @@
+Script started on Tuesday 27 February 2018 09:51:40 AM IST
+]0;oopb2@dell-3669: ~/Documents/Natesh M Bhat/OOPS/conceptualPrograms/polymorphism/overloading/typeConversions/DegreeAndRadianoopb2@dell-3669:~/Documents/Natesh M Bhat/OOPS/conceptualPrograms/polymorphism/overloading/typeConversions/DegreeAndRadian$ ./a.out 
+Enter angle in degrees : 10  180
+
+Degree : 180
+Degree to Radian  
+
+Construcutor 
+3.14159
+Radian to Degree  convert 
+
+Degree : 180]0;oopb2@dell-3669: ~/Documents/Natesh M Bhat/OOPS/conceptualPrograms/polymorphism/overloading/typeConversions/DegreeAndRadianoopb2@dell-3669:~/Documents/Natesh M Bhat/OOPS/conceptualPrograms/polymorphism/overloading/typeConversions/DegreeAndRadian$ exit
+exit
+
+Script done on Tuesday 27 February 2018 09:51:47 AM IST
