@@ -33,6 +33,14 @@ class Distance
 	void operator=(float meters) ; 
 }; 
 
+void Distance::operator=(float meters)
+{
+	float fltfeet = MTF*meters ; 
+	feet = int(fltfeet) ; 
+	inches = 12 * (fltfeet - feet) ; 
+	cout<<"\n"
+}
+
 
 int main()
 {

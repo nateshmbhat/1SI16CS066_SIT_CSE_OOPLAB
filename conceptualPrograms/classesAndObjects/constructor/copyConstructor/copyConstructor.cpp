@@ -10,7 +10,19 @@ class myclass{
 	myclass() ; 
 
 	void addNum(myclass obj ) ; 
+	myclass operator=(myclass& obj)
+	{
+		cout<<"\nExecuting assignment !\n" ; 
+		*this = obj ; 
+		return *this ; 
+	}
+
+	void display()
+	{
+		cout<<"\n" << a<<"\n" <<b<<endl; 
+	}
 }; 
+
 
 myclass::myclass(myclass & obj)
 {
@@ -41,4 +53,6 @@ int main()
 	myclass obj1 = obj ;  //Executes copy constructor
 	obj.addNum(obj1) ; 
 
+	obj1 = obj ; 
+	obj1.display() ;
 }

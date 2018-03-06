@@ -1,0 +1,19 @@
+box occupies 24 bytes
+
+Carton occupies32bytes
+Candy Carton occupies 32 bytes
+
+box volume is 24000
+
+Carton volume is 1
+
+Length is 1
+Material = cardboard
+Length = 1
+Width = 1
+Height = 1
+
+Material = Some material ! 
+Length = 1
+Width = 1
+Height = 1
