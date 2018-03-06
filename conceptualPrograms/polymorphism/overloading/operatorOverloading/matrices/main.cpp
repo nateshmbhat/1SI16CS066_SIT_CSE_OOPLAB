@@ -3,7 +3,6 @@ using namespace std ;
 
 class Matrix
 {
-
 	int r , c ; 
 	int **matrix ; 
 
@@ -63,9 +62,9 @@ Matrix Matrix::operator+(const Matrix& M)  const
 			res.matrix[i][j] = matrix[i][j] + M.matrix[i][j] ; 
 		}
 	}
-
 	return res ; 
 }
+
 
 Matrix Matrix::operator=(const Matrix& M) 
 {
@@ -136,10 +135,12 @@ istream& operator>>(istream& in , Matrix& M )
 	return in  ;
 }
 
+
 bool Matrix::operator==(const Matrix& M)
 {
 	return M.r ==r  && M.c == c ;  
 }
+
 
 int main(void)
 {
@@ -152,9 +153,9 @@ int main(void)
 
 	if(A==B)
 	{
-		Matrix A(m, n ) , B(p , q) ; 
 		cin>>A >>B ; 
 		cout<<A <<B ;
+		cout<<"\nMatrix S(m, n)" ; 
 		Matrix S(m,n) ;
 		S = (A+B) ; 
 		cout<<"\n\nMatrix Sum : " ; 
