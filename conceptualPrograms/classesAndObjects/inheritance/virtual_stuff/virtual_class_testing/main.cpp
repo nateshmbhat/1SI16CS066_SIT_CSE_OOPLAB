@@ -1,4 +1,3 @@
-
 #include<iostream>
 #include<iomanip>
 #include<bits/stdc++.h>
@@ -17,7 +16,7 @@ class baseclass
 };
 
 
-class derived:virtual public baseclass
+class derived:virtual  public baseclass
 {
 	public : 
 	int k , j , x  ;
@@ -37,11 +36,10 @@ int main(void)
 	 derived dobj(1 , 2) ; 
 	 baseclass bobj(1 , 2) ; 
 	 bobj = dobj ; 
-	bobj.showval() ; 
+	 bobj.showval() ; 
 
 	cout<<"\n\nprinting ..." <<endl;
 	cout<<dobj.baseclass::x ; 
 	cout<<"--end print--" <<endl; 
 	cout<<endl<<sizeof(dobj) <<endl;
-
 }
